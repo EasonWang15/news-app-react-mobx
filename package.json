@@ -2,7 +2,6 @@
   "name": "react-count",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
   "dependencies": {
     "mobx": "^5.13.0",
     "mobx-react": "^6.1.1",
