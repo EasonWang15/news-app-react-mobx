@@ -2,7 +2,9 @@
 
 ## 修改配置（增加修饰器配置）
 npm install react-app-rewired customize-cra @babel/plugin-proposal-decorators
+
 添加config-overrides.js
+
 添加.babelrc
 
 ## 技术点
