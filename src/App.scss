@@ -1,0 +1,32 @@
+* {padding: 0;margin: 0;}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+h1, h2, h3, h4 {font-weight: normal;font-size: 100%;}
+input, button, textarea {border: none;background: none;outline: none;font-family: 'Avenir', Helvetica, Arial, sans-serif;}
+textarea {resize: none;}
+img {max-width: 540px;border: none;}
+#app {
+  font: 14px/1.5 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn-default {
+  color: #61DAFB;
+  border: 1px solid #61DAFB;
+  background-color: #fff;
+}
+.btn-green {
+  color: #fff;
+  border: 1px solid #61DAFB;
+  background-color: #61DAFB;
+}
+.wrapper-tabbar {
+  padding-bottom: 51px;
+}

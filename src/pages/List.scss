@@ -1,0 +1,45 @@
+.list {
+	.empty {
+		margin-top: 10px;
+		font-size: 18px;
+		text-align: center;
+	}
+	.list-item {
+		padding: 10px 2%;
+		li {
+			padding: 5px;
+			margin-bottom: 10px;
+			font-size: 16px;
+			border-radius: 4px;
+			border: 1px solid #eee;
+			box-shadow: 1px 1px 5px #eee;
+			h2 {
+				line-height: 30px;
+				border-bottom: 1px solid #eee;
+			}
+			p {
+				line-height: 24px;
+				&:nth-child(2) {
+					margin-top: 5px;
+				}
+				&:last-child {
+					margin-bottom: 5px;
+				}
+			}
+			a {
+				display: none;
+				float: right;
+				color: #fff;
+				text-decoration: underline;
+			}
+			&.active {
+				color: #fff;
+				border-color: #fff;
+				background-color: #61DAFB;
+				a {
+					display: block;
+				}
+			}
+		}
+	}
+}

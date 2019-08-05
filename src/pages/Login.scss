@@ -1,0 +1,36 @@
+.form-com {
+	h1 {
+		padding: 20px 10%;
+		margin-left: 2%;
+		font-size: 16px;
+	}
+	.form-row {
+		display: flex;
+		line-height: 28px;
+		padding: 0 2% 0 10%;
+		margin-bottom: 10px;
+	}
+	.form-label {
+		width: 80px;
+		padding-right: 6px;
+		text-align: right;
+	}
+	.form-inp {
+		flex: 1;
+		height: 26px;
+		line-height: 26px;
+		padding: 0 4px;
+		border: 1px solid #eee;
+		border-radius: 2px;
+	}
+	.form-btns {
+		display: flex;
+		padding: 20px 4%;
+		.btn {
+			flex: 1;
+		}
+		.btn-green {
+			margin-right: 10px;
+		}
+	}
+}

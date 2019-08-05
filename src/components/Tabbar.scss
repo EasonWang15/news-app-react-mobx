@@ -1,0 +1,21 @@
+.tab {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #61DAFB;
+    background-color: #fff;
+    a {
+      flex: 1;
+      height: 50px;
+      line-height: 50px;
+      color: #61DAFB;
+      text-align: center;
+      &.active {
+        color: #fff;
+        background-color: #61DAFB;
+      }
+    }
+}
